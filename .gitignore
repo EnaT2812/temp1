@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment files (keep .env.example, ignore real .env)
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Model checkpoints (large binary files)
+intent_model_checkpoint/
+*.bin
+*.pt
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

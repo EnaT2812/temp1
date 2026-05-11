@@ -1,0 +1,122 @@
+[
+  {
+    "id": "req_001",
+    "customer_id": "CUST-1042",
+    "channel": "mobile",
+    "message": "I transferred 5 million VND to my friend yesterday but the money has not been received yet. The transaction shows as pending. Please help me urgently.",
+    "expected_intent": "transfer_failure",
+    "expected_priority": "high"
+  },
+  {
+    "id": "req_002",
+    "customer_id": "CUST-2871",
+    "channel": "web",
+    "message": "I ordered a new debit card two weeks ago but it hasn't arrived yet. My registered address is correct. Can you check the delivery status?",
+    "expected_intent": "card_not_received",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "req_003",
+    "customer_id": "CUST-3314",
+    "channel": "api",
+    "message": "There are suspicious transactions on my account that I did not make. I see two charges of 2,000,000 VND each from an unknown merchant last night. This is fraud!",
+    "expected_intent": "fraud_report",
+    "expected_priority": "high"
+  },
+  {
+    "id": "req_004",
+    "customer_id": "CUST-4490",
+    "channel": "mobile",
+    "message": "My card is blocked and I cannot use it for any payments. I entered my PIN correctly but it keeps getting declined. Please unblock my card.",
+    "expected_intent": "card_blocked",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "req_005",
+    "customer_id": "CUST-5523",
+    "channel": "web",
+    "message": "I cannot login to my internet banking account. I tried resetting my password but I am not receiving the OTP on my phone number.",
+    "expected_intent": "login_issue",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "req_006",
+    "customer_id": "CUST-6801",
+    "channel": "mobile",
+    "message": "My account has been suddenly blocked. I cannot make any transactions. I did not receive any notification about why it was blocked. Please help immediately.",
+    "expected_intent": "account_blocked",
+    "expected_priority": "high"
+  },
+  {
+    "id": "req_007",
+    "customer_id": "CUST-7234",
+    "channel": "api",
+    "message": "I accidentally sent money to the wrong account number. I typed account number 1234567890 instead of 1234567089. The amount was 10,000,000 VND. Can I get it back?",
+    "expected_intent": "wrong_transfer",
+    "expected_priority": "high"
+  },
+  {
+    "id": "req_008",
+    "customer_id": "CUST-8012",
+    "channel": "web",
+    "message": "I want to know the current interest rate for a 12-month fixed deposit. I am planning to deposit about 100 million VND.",
+    "expected_intent": "interest_rate_inquiry",
+    "expected_priority": "low"
+  },
+  {
+    "id": "req_009",
+    "customer_id": "CUST-9345",
+    "channel": "mobile",
+    "message": "I lost my debit card at the shopping mall today. Please block it immediately and issue a replacement card.",
+    "expected_intent": "lost_or_stolen_card",
+    "expected_priority": "high"
+  },
+  {
+    "id": "req_010",
+    "customer_id": "CUST-1098",
+    "channel": "web",
+    "message": "My electricity bill payment failed but the amount was deducted from my account. I need a refund for the failed bill payment of 500,000 VND.",
+    "expected_intent": "bill_payment_issue",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "req_011",
+    "customer_id": "CUST-1156",
+    "channel": "api",
+    "message": "I missed my loan EMI payment last month and now I am worried about late fees. How much penalty will be charged and how can I pay the overdue amount?",
+    "expected_intent": "loan_repayment_issue",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "req_012",
+    "customer_id": "CUST-1287",
+    "channel": "web",
+    "message": "I would like to apply for a personal loan of 50 million VND. What are the requirements and how long does the approval process take?",
+    "expected_intent": "loan_inquiry",
+    "expected_priority": "low"
+  },
+  {
+    "id": "req_013",
+    "customer_id": "CUST-1390",
+    "channel": "mobile",
+    "message": "I need to update my KYC documents. My address has changed and I need to update the address proof in my account.",
+    "expected_intent": "kyc_update",
+    "expected_priority": "low"
+  },
+  {
+    "id": "req_014",
+    "customer_id": "CUST-1445",
+    "channel": "web",
+    "message": "I made a purchase of 1,200,000 VND online last week but the order was cancelled. The merchant says the refund was processed but I haven't received it yet.",
+    "expected_intent": "refund_request",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "req_015",
+    "customer_id": "CUST-1567",
+    "channel": "api",
+    "message": "What are the working hours of your branches in Ho Chi Minh City? I also want to know if I can open a new savings account online.",
+    "expected_intent": "general_inquiry",
+    "expected_priority": "low"
+  }
+]
