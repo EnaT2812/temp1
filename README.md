@@ -240,10 +240,8 @@ for s in samples:
 
 ## Video Demo
 
-🎬 **[Link to video demonstration](#)** *(update this link before submission)*
+🎬 **[Link to video demonstration](#)** 
 
----
+https://drive.google.com/file/d/1mfR4E-bZFE0vCy5FJ-_OlMzv5-V7X1Op/view?usp=drive_link
 
-## License
 
-For educational use only – VNUHCM University of Science, 2026.

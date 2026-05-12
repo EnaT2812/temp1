@@ -26,9 +26,6 @@ env/
 
 # Model checkpoints (large binary files)
 intent_model_checkpoint/
-*.bin
-*.pt
-*.safetensors
 
 # Logs
 *.log
